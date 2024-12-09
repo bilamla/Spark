@@ -43,30 +43,22 @@ Project Structure
 
 1.4.left_join.py                   # Joins weather and restaurant data
 
-2. tests
+   
+2. data
+   
+2.1. weather_dataset/               # Original weather data\
 
-2.1. test_generate_geohash.py       # Tests for geohash creation
-
-2.2. test_file_processing.py        # Tests for combining files
-
-2.3. test_join_operations.py        # Tests for joining datasets
+2.2. restaurant_csv/                # Original restaurant data
 
    
-3. data
+3. output
    
-3.1. weather_dataset/               # Original weather data\
+3.1. combined_weather_data.parquet  # Combined weather data with geohash
 
-3.2. restaurant_csv/                # Original restaurant data
-
-   
-4. output
-   
-4.1. combined_weather_data.parquet  # Combined weather data with geohash
-
-4.2. enriched_data.parquet          # Final output with weather and restaurants
+3.2. enriched_data.parquet          # Final output with weather and restaurants
 
    
-5. README.md                          # This file
+4. README.md                          # This file
 
 How to Use
 
